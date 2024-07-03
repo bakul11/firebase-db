@@ -8,7 +8,7 @@ import toast from 'react-hot-toast';
 import { IoCloudUploadOutline } from "react-icons/io5";
 
 
-const page = () => {
+const Page = () => {
   // user collection 
   const userCollection = collection(db, 'users')
 
@@ -160,4 +160,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
